@@ -1,10 +1,3 @@
-# CLI Notes
-
-CLI application for creating and editing notes
-Created with Cobra
-
-
-```
 package main
 
 import (
@@ -31,20 +24,3 @@ func main() {
 		os.Exit(1)
 	}
 }
-```
-
-### Strat off
-- Download git rrepository
-  
-- Go to the installed directory
-
-```
-Cd /your/install/project/Notes
-```
-
-- Launching the application
-  
-```
-go run main.go
-
-```
